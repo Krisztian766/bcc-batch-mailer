@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOXPOST – Csomag érkezett</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        max-width: 600px;
+        background-color: #ffffff;
+        margin: auto;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        padding: 30px;
+      }
+      h2 {
+        color: #ed1c24;
+      }
+      .location-box {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        padding: 15px;
+        border-radius: 4px;
+        margin: 20px 0;
+      }
+      .button {
+        display: inline-block;
+        background-color: #ed1c24;
+        color: #ffffff;
+        padding: 14px 28px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      @media screen and (max-width: 600px) {
+        .container {
+          padding: 20px;
+        }
+        .button {
+          display: block;
+          width: 100%;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>📦 FOXPOST – Csomag érkezett</h2>
+      <p style="font-size: 15px; color: #333;">
+        Kedves <strong>TEST</strong>,<br /><br />
+        A(z) <strong>TEST Kft.</strong> csomagja megérkezett az alábbi FOXPOST automatába:
+      </p>
+      <div class="location-box">
+        <strong>TEST(TESCO)</strong>
+      </div>
+      <p style="font-size: 15px; color: #333;">
+        Kattintson az alábbi gombra az átvételi kód megtekintéséhez:
+      </p>
+      <div style="text-align: center; margin: 30px 0;">
+        <a href="{{target_link}}" class="button">Átvételi kód megtekintése</a>
+      </div>
+      <p style="font-size: 14px; color: #444;">
+        Határidő: <strong>2025.07.06. 12:00</strong><br />
+        Kód (a kattintás után jelenik meg): <strong>XP-94T-QS</strong>
+      </p>
+      <p style="font-size: 13px; color: #666; margin-top: 30px;">
+        A csomag 72 óráig kerül tárolásra. Kérjük, vegye át időben.
+      </p>
+    </div>
+  </body>
+</html>
